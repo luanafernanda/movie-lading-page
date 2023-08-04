@@ -1,0 +1,93 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body, header {
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%), url('images/imagem-m.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.navbar-nav .nav-link-active {
+  position: relative;
+  color: white;
+}
+
+.nav-link {
+  text-align: center;
+  color: lightgray;
+}
+
+hr {
+  color: lightgray;
+}
+
+.nav-item > a.active {
+background-color: lightgray  !important; 
+}
+
+.nav-item > a:hover {
+color: #3A4342;
+}
+
+section {
+  background: transparent;
+  padding-top: 70px;
+  color: lightgray;
+}
+
+header {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  color: lightgray;
+}
+
+
+p {
+  font-size: 16px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-image {
+  height: 90vh;     
+  object-fit: cover;
+}
+
+.card {
+  background: transparent;
+  color: lightgray;
+  border-color: gray;
+}
+
+.card-image {
+  height: 70vh; 
+  width: 100%;  
+  object-fit: cover;
+}
+
+.btn {
+  background-color: lightgrey;
+  color: black;
+}
+
+
+.card-body {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+}
